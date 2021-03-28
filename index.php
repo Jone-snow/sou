@@ -6,7 +6,7 @@ $q=htmlspecialchars($_POST["q"]);
 if (empty($q)) {
 }else{
   if ($t=="b"){
-    echo'<script>window.location.href="//www.baidu.com/s?ie=utf-8&word='.$q.'";</script>';
+    echo'<script>window.location.href="//www.bing.com/s?ie=utf-8&word='.$q.'";</script>';
   }else{
     //默认谷歌
     echo'<script>window.location.href="https://www.google.com.hk/search?hl=zh&q='.$q.'";</script>';
